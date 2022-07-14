@@ -12,7 +12,7 @@ def snapchat(user: str):
     xsrf_token = session.get('https://accounts.snapchat.com/accounts/signup?client_id=ads-api&referrer=https%253A%252F%252Fads.snapchat.com%252Fgetstarted&ignore_welcome_email=true', headers=headers).cookies.get_dict()['xsrf_token'];cookies = session.cookies
     if checkUser(user, cookies, xsrf_token):
         response = session.post('https://accounts.snapchat.com/accounts/signup', headers=headers,
-            data={'first_name': 'Konuşabilir', 'last_name': "miyiz", 'username': user, 'password': f'x{randomVar}', 'birthday': '2000-02-02', 'email': f'y{randomVar}@gmail.com',
+            data={'first_name': 'John', 'last_name': "Doe", 'username': user, 'password': f'x{randomVar}', 'birthday': '2000-02-02', 'email': f'y{randomVar}@gmail.com',
                     'xsrf_token': xsrf_token, 'g-recaptcha-response': reCaptchaV3("https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LezjdAZAAAAAD1FaW81QpkkplPNzCNnIOU5anHw&co=aHR0cHM6Ly9hY2NvdW50cy5zbmFwY2hhdC5jb206NDQz&hl=en&v=M-QqaF9xk6BpjLH22uHZRhXt&size=invisible&badge=inline&cb=9qlf8d10oqh9"),
                     'client_id': 'ads-api', 'referrer': 'https%3A%2F%2Fads.snapchat.com%2Fgetstarted', 'ignore_welcome_email': 'true'})
         if response.ok: return {'ok': True, 'error': None, 'results': {'user': user, 'password': f'x{randomVar}', 'email': f'y{randomVar}@gmail.com', 'birthday': '2000-01-31'}}
