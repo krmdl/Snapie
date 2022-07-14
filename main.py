@@ -16,5 +16,5 @@ while True:
 
     adb.submit_creds(username, password, delay)
     adb.skip(1)
-    adb.follow("beyzaa_cvlk")
+    adb.follow("john.doe")
 
