@@ -1,5 +1,5 @@
 # snapchatFollowBot
-Get fake friends on snapchat.
+Get bulk friends on snapchat.
 How to use:
 
 install required libs.
