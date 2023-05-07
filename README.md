@@ -2,7 +2,7 @@
 <html>
 <body>
 	<h1>Snapie</h1>
-	<p>Snapie is a Python script that uses the Android Debug Bridge (ADB) to automatically add bulk friends on Snapchat. Please note that using this script goes against Snapchat's terms of service and can result in account suspension or termination.</p>
+	<p>Snapie is a Python script that uses the Android Debug Bridge (ADB) to automatically add bulk friends on Snapchat. Snapie can even be used as a bulk account creator. Please note that using this script goes against Snapchat's terms of service and can result in account suspension or termination.</p>
   
 <h2>Installation</h2>
 <ol>
