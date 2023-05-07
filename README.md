@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Snapie</title>
-</head>
 <body>
 	<h1>Snapie</h1>
 	<p>Snapie is a Python script that uses the Android Debug Bridge (ADB) to automatically add bulk friends on Snapchat. Please note that using this script goes against Snapchat's terms of service and can result in account suspension or termination.</p>
@@ -10,8 +7,8 @@
 <h2>Installation</h2>
 <ol>
 	<li>Clone the repository:</li>
-	<pre>git clone https://github.com/yourusername/snapchatFollowBot.git</pre>
-	<pre>cd snapchatFollowBot</pre>
+	<pre>git clone https://github.com/yourusername/Snapie.git</pre>
+	<pre>cd Snapie</pre>
 	<li>Install the required libraries:</li>
 	<pre>pip install -r requirements.txt</pre>
 	<li>Connect an Android device with ADB and make sure that Snapchat is installed.</li>
