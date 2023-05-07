@@ -1,2 +1,3 @@
 requests
-pip install pure-python-adb
+pure-python-adb
+PyPasser
