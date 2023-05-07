@@ -7,7 +7,7 @@
 <h2>Installation</h2>
 <ol>
 	<li>Clone the repository:</li>
-	<pre>git clone https://github.com/yourusername/Snapie.git</pre>
+	<pre>git clone https://github.com/krmdl/Snapie.git</pre>
 	<pre>cd Snapie</pre>
 	<li>Install the required libraries:</li>
 	<pre>pip install -r requirements.txt</pre>
